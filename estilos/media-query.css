@@ -1,17 +1,16 @@
-@charset "UTF8";
+@charset "UTF-8";
 
-/*
-    Typical Devic Breakpoints:
--------------------------------------------
-    Pequenas telas: até 600px
-    Celular: de 600px até 768px
-    Tablet: de 768px até 992px
-    Desktop: de 992px até 1200px
-    Grandes telas: acima de 1200px
+/* Typical Device Breakpoints
+------------------------------
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
 */
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
-    body{ /* CONFIGURAÇÃO PARA TABLET */
+@media screen and (min-width: 768px) and (max-width: 992px) { /* CONFIGURAÇÃO PARA TABLET */
+    body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
 
@@ -32,8 +31,8 @@
     }
 }
 
-@media screen and (min-width: 992px){ /* CONFIGURAÇÃO PARA DESKTOP */
-    body{
+@media screen and (min-width: 992px) { /* CONFIGURAÇÕES PARA DESKTOP */
+    body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
 
@@ -42,7 +41,7 @@
         height: 350px;
     }
 
-    section#login > dic#imagem {
+    section#login > div#imagem {
         float: right;
         width: 50%;
         height: 100%;
