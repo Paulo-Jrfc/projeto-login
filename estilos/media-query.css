@@ -51,24 +51,3 @@
         width: 50%;
     }
 }
-
-/*@media screen and (min-width: 1200px) {
-    body{
-        background-image: linear-gradient(to top, #49a09d, #5f2c82);
-    }
-
-    section#login {
-        width: ;
-    }
-
-    section#login > dic#imagem {
-        float: ;
-        width: ;
-        height: ;
-    }
-
-    section#login > div#formulario {
-        float: ;
-        width: ;
-    }
-}*/
